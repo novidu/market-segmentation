@@ -12,7 +12,7 @@ plot(iris_slsw_3)
 plot(AMD5_slsw_5)
 
 loadfonts()
-pdf("41.pdf", height=5, width=9)
+pdf("41.pdf", height = 5, width = 9)
 par(mfrow=c(1,2))
 plot( prop_var_expl, type="b" , xlab="Number of components",        # Scree plot
       ylab="Proportion of variance explained", ylim=c(0,1), pch = 20)
